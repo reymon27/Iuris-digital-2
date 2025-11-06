@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iuris Digital - El derecho al alcance de un clic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.jpeg" alt="Logo Iuris Digital" class="logo">
+        <h1>Iuris Digital</h1>
+        <p class="tagline">El derecho al alcance de un clic</p>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#consultorias">Consultorías</a>
+            <a href="#chatbot">Lic. Juan Pérez</a>
+            <a href="#nosotros">Sobre Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a Iuris Digital</h2>
+        <p>Tu plataforma de confianza para resolver dudas jurídicas y recibir orientación legal de forma sencilla y accesible.</p>
+    </section>
+
+    <section id="consultorias">
+        <h2>Consultorías Jurídicas</h2>
+        <div class="planes">
+            <div class="plan">
+                <h3>Plan Gratuito</h3>
+                <p>✔ 1 asesoría virtual</p>
+                <p>✔ 10 preguntas jurídicas</p>
+                <p>💬 Ideal para estudiantes o consultas básicas.</p>
+            </div>
+            <div class="plan premium">
+                <h3>Plan Premium</h3>
+                <p>✔ Asesorías ilimitadas</p>
+                <p>✔ Consultas con abogados expertos</p>
+                <p>💼 Perfecto para quienes buscan profundidad jurídica.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="chatbot">
+        <h2>🤖 El Lic. Juan Pérez</h2>
+        <div class="chat-container">
+            <img src="img/licjuan.jpeg" alt="Lic. Juan Pérez" class="bot-img">
+            <div class="chat-box" id="chat-box">
+                <div class="bot-message">¡Hola joven! Soy el Lic. Juan Pérez, su abogado virtual de confianza. ¿En qué le puedo orientar hoy?</div>
+            </div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Escribe tu pregunta jurídica...">
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En Iuris Digital creemos que el conocimiento jurídico debe estar al alcance de todos. Nuestro objetivo es acercar el derecho a estudiantes y ciudadanos mediante tecnología y asesoría accesible.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>📧 Correo: <a href="mailto:soporte@iurisdigital.com">soporte@iurisdigital.com</a></p>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
+            <textarea placeholder="Tu mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Iuris Digital | El derecho al alcance de un clic</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
